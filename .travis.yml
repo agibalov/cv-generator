@@ -5,6 +5,8 @@ after_script:
   - node app.js
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - git remote set-branches --add origin gh-pages
+  - git fetch
   - git checkout gh-pages
   - git rm -rf .
   - git add resume.html
