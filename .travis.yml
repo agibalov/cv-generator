@@ -7,6 +7,8 @@ after_script:
   - mv resume.css _resume.css
   - mv resume.pdf _resume.pdf
   - git config credential.helper "store --file=.git/credentials"
+  - git config --global user.email "loki2302@loki2302.me"
+  - git config --global user.name "loki2302"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git remote set-branches --add origin gh-pages
   - git fetch
