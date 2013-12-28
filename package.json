@@ -1,0 +1,31 @@
+{
+  "name": "cv-generator",
+  "version": "0.0.0",
+  "description": "cv-generator ============",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodejs app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loki2302/cv-generator.git"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "generator"
+  ],
+  "author": "loki2302",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loki2302/cv-generator/issues"
+  },
+  "homepage": "https://github.com/loki2302/cv-generator",
+  "dependencies": {
+    "libxmljs": "~0.8.1",
+    "swig": "~1.2.2",
+    "phantomjs": "~1.9.2-6",
+    "underscore": "~1.5.2"
+  }
+}
