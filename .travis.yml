@@ -3,12 +3,18 @@ node_js:
   - '0.10'
 after_script:
   - node app.js
+  - mv resume.html _resume.html
+  - mv resume.css _resume.css
+  - mv resume.pdf _resume.pdf
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git remote set-branches --add origin gh-pages
   - git fetch
   - git checkout gh-pages
   - git rm -rf .
+  - mv _resume.html resume.html
+  - mv _resume.css resume.css
+  - mv _resume.pdf resume.pdf
   - git add resume.html
   - git add resume.css
   - git add resume.pdf
