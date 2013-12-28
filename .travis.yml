@@ -10,7 +10,8 @@ after_script:
   - git config --global user.email "loki2302@loki2302.me"
   - git config --global user.name "loki2302"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-  - git remote set-branches --add origin gh-pages
+  - git remote set-url origin https://github.com/loki2302/cv-generator.git
+  - git remote set-branches --add origin gh-pages  
   - git fetch
   - git checkout gh-pages
   - git rm -rf .
