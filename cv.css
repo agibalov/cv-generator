@@ -6,32 +6,49 @@ body {
 .personal .name {
 	text-transform: uppercase;
 	font-weight: normal;
+	font-size: 22pt;
 	padding: 0;
 	margin: 0;
+	padding-left: 40px;
+	color: #ff3d00;
 }
 
 .personal .position {
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 14pt;
 	padding: 0;
 	margin: 0;
 	color: #555555;
+
+	padding-left: 40px;
 }
 
 .personal .statement {
+	padding-left: 40px;
+	font-size: 12pt;
 }
 
 .section h2 {
 	text-transform: uppercase;
-	font-weight: bold;	
+	font-weight: bold;
+	font-size: 12pt;	
+	color: #333333;
+	border-bottom: 3px solid #888888;
+	padding: 10pt 0;
+	padding-left: 40px;
 }
 
 .project {	
+	padding-left: 40px;
 }
 
 .project .name {	
 	padding: 0;
 	margin: 0;
+	text-transform: uppercase;
+	font-size: 14pt;
+	color: #ff3d00;
 }
 
 .project .time {	
@@ -40,11 +57,21 @@ body {
 	margin: 0;
 	font-weight: bold;
 	color: #555555;
-	font-size: 12px;
+	font-size: 8pt;
 }
 
 .project .description {	
 }
 
 .project .keywords {	
+}
+
+.project hr {
+	border: none;
+	border-bottom: 3px solid #888888;
+	margin-bottom: 20pt;
+}
+
+ul {
+	list-style-type: square;
 }
