@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="resume.css">
-		<title>{{ name }} - {{ position }}</title>
+		<link rel="stylesheet" href="cv.css">
+		<title>{{ person.name }} - {{ person.position }}</title>
 	</head>
 	<body>
 		<div class="personal">
-			<h1 class="name">{{ name }}</h1>
-			<p class="position">{{ position }}</p>
-			<p class="statement">{{ statement }}</p>
+			<h1 class="name">{{ person.name }}</h1>
+			<p class="position">{{ person.position }}</p>
+			<p class="statement">{{ person.statement }}</p>
 		</div>
 
 		<div class="section highlights">

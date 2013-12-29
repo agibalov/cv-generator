@@ -1,0 +1,35 @@
+{
+	"person": {
+		"name": "John Smith",
+		"position": "Chief Hipster Officer",
+		"statement": "A someone you definitely want to hire."
+	},
+	"highlights": [
+		"Strong blabla skills",
+		"Experience in blablabla",
+		"OMG specialist",
+		"Point 4, yes"
+	],
+	"projects": [
+		{
+			"name": "Project #2",
+			"time": "November 2012 - September 2013",
+			"description": "That was a project, yeah.",
+			"responsibilities": [
+				"Coffee drinking",
+				"Vodking"
+			],
+			"keywords": "Coffee, Vodka"
+		},
+		{
+			"name": "Project #1",
+			"time": "November 2011 - November 2012",
+			"description": "That was a project, yeah.",
+			"responsibilities": [
+				"Beer drinking",
+				"Vodking"
+			],
+			"keywords": "Beer, Vodka"
+		}
+	]
+}

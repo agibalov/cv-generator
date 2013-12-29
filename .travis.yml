@@ -3,9 +3,9 @@ node_js:
   - '0.10'
 after_script:
   - node app.js
-  - mv resume.html _resume.html
-  - mv resume.css _resume.css
-  - mv resume.pdf _resume.pdf
+  - mv cv.html _cv.html
+  - mv cv.css _cv.css
+  - mv cv.pdf _cv.pdf
   - git config credential.helper "store --file=.git/credentials"
   - git config --global user.email "loki2302@loki2302.me"
   - git config --global user.name "loki2302"
@@ -15,12 +15,12 @@ after_script:
   - git fetch
   - git checkout gh-pages
   - git rm -rf .
-  - mv _resume.html resume.html
-  - mv _resume.css resume.css
-  - mv _resume.pdf resume.pdf
-  - git add resume.html
-  - git add resume.css
-  - git add resume.pdf
+  - mv _cv.html cv.html
+  - mv _cv.css cv.css
+  - mv _cv.pdf cv.pdf
+  - git add cv.html
+  - git add cv.css
+  - git add cv.pdf
   - git commit -m "Travis build"
   - git push origin gh-pages
 env:

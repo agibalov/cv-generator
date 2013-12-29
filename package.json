@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/loki2302/cv-generator",
   "dependencies": {
-    "libxmljs": "~0.8.1",
     "swig": "~1.2.2",
     "phantomjs": "~1.9.2-6",
     "underscore": "~1.5.2"
