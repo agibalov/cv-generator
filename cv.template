@@ -25,11 +25,11 @@
 			<h2>Projects</h2>
 			{% for project in projects %}
 				<div class="project">
-					<h3 class="name">{{ project.name }}</h3>
 					<p class="time">{{ project.timeframe.from }} &mdash; {{ project.timeframe.to }}</p>
+					<h3 class="name">{{ project.name }}</h3>					
 					{% if project.url %}
 						{% if project.sourceUrl %}
-							<p>Link: <a href="{{ project.url }}">{{ project.url }}</a> (source code: <a href="{{ project.sourceUrl }}">{{ project.sourceUrl }}</a>)</p>
+							<p><a href="{{ project.url }}">{{ project.url }}</a> (source code: <a href="{{ project.sourceUrl }}">{{ project.sourceUrl }}</a>)</p>
 						{% else %}
 							<p>Link: <a href="{{ project.url }}">{{ project.url }}</a></p>
 						{% endif %}
@@ -42,6 +42,7 @@
 					{% endfor %}
 					</ul>
 					<p class="keywords">Keywords: {{ project.keywords }}</p>
+					<hr>
 				</div>
 			{% endfor %}
 		</div>
