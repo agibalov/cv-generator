@@ -13,7 +13,7 @@
 	"projects": [
 		{
 			"name": "Project #2",
-			"time": "November 2012 - September 2013",
+			"timeframe": { "from": "November 2012", "to": "September 2013" },
 			"description": "That was a project, yeah.",
 			"responsibilities": [
 				"Coffee drinking",
@@ -23,7 +23,7 @@
 		},
 		{
 			"name": "Project #1",
-			"time": "November 2011 - November 2012",
+			"timeframe": { "from": "November 2011", "to": "November 2012" },
 			"description": "That was a project, yeah.",
 			"responsibilities": [
 				"Beer drinking",
