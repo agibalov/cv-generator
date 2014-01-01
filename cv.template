@@ -1,3 +1,9 @@
+{% macro render_tags(tags) %}
+{% for tag in tags %}
+<span class="tag">{{ tag|replace(' ', '&nbsp;', 'g')|safe }}</span>
+{% endfor %}
+{% endmacro %}
+
 <!doctype html>
 <html>
 	<head>
@@ -11,16 +17,19 @@
 			<p class="position">{{ person.position }}</p>
 			<p class="statement">{{ person.statement }}</p>
 		</div>
-
+		<div class="contacts">
+			<p class="email"><span class="label">Email:</span> <a href="mailto:{{ contacts.email }}">{{ contacts.email }}</a></p>
+			<p class="phone"><span class="label">Phone:</span> {{ contacts.phone }}</p>
+		</div>
 		<div class="section highlights">
 			<h2>Highlights</h2>
 			<ul>
 			{% for highlight in highlights %}
 				<li>{{ highlight }}</li>
-			{% endfor %}
+			{% endfor %}				
 			</ul>
+			{{ render_tags(keywords) }}
 		</div>
-
 		<div class="section projects">
 			<h2>Projects</h2>
 			{% for project in projects %}
@@ -40,8 +49,8 @@
 					{% for responsibility in project.responsibilities %}
 						<li>{{ responsibility }}</li>
 					{% endfor %}
-					</ul>
-					<p class="keywords">Keywords: {{ project.keywords }}</p>
+					</ul>					
+					{{ render_tags(project.keywords) }}
 					<hr>
 				</div>
 			{% endfor %}

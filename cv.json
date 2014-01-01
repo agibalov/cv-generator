@@ -4,12 +4,17 @@
 		"position": "Chief Hipster Officer",
 		"statement": "A someone you definitely want to hire."
 	},
+	"contacts": {
+		"email": "jsmith@example.org",
+		"phone": "+1234567890"
+	},
 	"highlights": [
 		"Strong blabla skills",
 		"Experience in blablabla",
 		"OMG specialist",
 		"Point 4, yes"
 	],
+	"keywords": ["Beer", "Vodka", "Coffee"],
 	"projects": [
 		{
 			"name": "Project #2",
@@ -19,7 +24,7 @@
 				"Coffee drinking",
 				"Vodking"
 			],
-			"keywords": "Coffee, Vodka"
+			"keywords": ["Coffee", "Vodka"]
 		},
 		{
 			"name": "Project #1",
@@ -29,7 +34,7 @@
 				"Beer drinking",
 				"Vodking"
 			],
-			"keywords": "Beer, Vodka"
+			"keywords": ["Beer", "Vodka"]
 		}
 	]
 }
