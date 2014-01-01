@@ -1,6 +1,8 @@
-body {
+body, h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+}
+
+.personal {
 }
 
 .personal .name {
@@ -9,7 +11,6 @@ body {
 	font-size: 22pt;
 	padding: 0;
 	margin: 0;
-	padding-left: 40px;
 	color: #ff3d00;
 }
 
@@ -20,13 +21,35 @@ body {
 	padding: 0;
 	margin: 0;
 	color: #555555;
-
-	padding-left: 40px;
 }
 
-.personal .statement {
-	padding-left: 40px;
+.statement {
 	font-size: 12pt;
+}
+
+.contacts {	
+}
+
+.label {
+	font-weight: bold;
+	color: #333333;
+}
+
+.tag {
+	border: 1px solid #555;
+	border-radius: 5pt;
+	padding: 0.5pt 5pt;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: "monospace";
+	color: #fff;
+	background-color: #555;
+}
+
+.contacts .email, .contacts .phone {
+	padding: 0;
+	margin: 0;
+	font-size: 10pt;	
 }
 
 .section h2 {
@@ -36,11 +59,9 @@ body {
 	color: #333333;
 	border-bottom: 3px solid #888888;
 	padding: 10pt 0;
-	padding-left: 40px;
 }
 
 .project {	
-	padding-left: 40px;
 }
 
 .project .name {	
