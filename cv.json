@@ -1,40 +1,117 @@
 {
 	"person": {
-		"name": "John Smith",
-		"position": "Chief Hipster Officer",
-		"statement": "A someone you definitely want to hire."
+		"name": "Andrey Agibalov",
+		"position": "Senior Software Engineer",
+		"statement": "Software engineer/Team leader in a number of software projects from desktop C++ to single-page web applications. I know the difference between writing a good code and building a good product. I'm particularly interested in building complete solutions that work, amaze and are capable of being evolved at the same time."
 	},
 	"contacts": {
-		"email": "jsmith@example.org",
-		"phone": "+1234567890"
+		"email": "andrey.agibalov@gmail.com",
+		"phone": "+7 950 759 59 71",
+		"github": "https://github.com/loki2302"
 	},
+	"keywords": [".NET", "C#", "ASP.NET MVC", "Ninject", "Entity Framework", "LINQ2SQL", "Dapper", "IIS", "TeamCity", "NUnit", "MSBuild", "SQL", "Microsoft SQL Server", "Git", "AngularJS", "Bootstrap", "Java", "Guice", "JUnit", "Spring", "Android", "Maven", "Python", "Django", "Neo4j", "C++", "STL", "boost"],
 	"highlights": [
-		"Strong blabla skills",
-		"Experience in blablabla",
-		"OMG specialist",
-		"Point 4, yes"
+		"Strong software architecting and design skills",
+		"Experience in team leadership and process management"		
 	],
-	"keywords": ["Beer", "Vodka", "Coffee"],
 	"projects": [
 		{
-			"name": "Project #2",
-			"timeframe": { "from": "November 2012", "to": "September 2013" },
-			"description": "That was a project, yeah.",
+			"name": "Grocery list optimizer service",
+			"timeframe": { "from": "November 2012", "to": "December 2013" },
+			"description": "A comprehensive grocery list optimizing solution, consisting of iOS application, ASP.NET MVC website, .NET middleware and SQL Server backend.",
 			"responsibilities": [
-				"Coffee drinking",
-				"Vodking"
+				"Team leadership, development activities coordination",
+				"Requirements management",
+				"Estimation, risk management, iteration planning",
+				"Middleware development",
+				"Few internal utility products development",
+				"Continuous integration implementation"
 			],
-			"keywords": ["Coffee", "Vodka"]
+			"keywords": [".NET", "C#", "WCF", "ASP.NET MVC", "Microsoft SQL Server", "T-SQL", "Stored Procedures", "TeamCity", "MSTest", "LINQ2SQL", "AngularJS", "Bootstrap", "JIRA", "IIS", "MSBuild", "JSON"]
 		},
 		{
-			"name": "Project #1",
-			"timeframe": { "from": "November 2011", "to": "November 2012" },
-			"description": "That was a project, yeah.",
+			"name": "Retask",
+			"timeframe": { "from": "June 2013", "to": "July 2013" },
+			"url": "http://retask.me",
+			"sourceUrl": "https://github.com/loki2302/retask",
+			"description": "My home project, an online \"to do\" service, designed as a single-page web application. There are 3 swimlanes: \"to do\", \"in progress\" and \"done\", which let users track their progress. There's Markdown support to make task descriptions more expressive. This project is aimed to have all my best practices compiled in a single place.",
 			"responsibilities": [
-				"Beer drinking",
-				"Vodking"
+				"Infrastructure configuration and administration",
+				"Front-end and back-end development",
+				"UI design",
+				"User support",
+				"Continuous integration implementation"
 			],
-			"keywords": ["Beer", "Vodka"]
+			"keywords": [".NET", "C#", "Microsoft SQL Server", "TeamCity", "NUnit", "Entity Framework", "AngularJS", "Bootstrap", "YouTrack", "Git", "IIS", "MSBuild", "Markdown", "JSON"]
+		},
+		{
+			"name": "Android restaurant management system client",
+			"timeframe": { "from": "December 2011", "to": "November 2012" },
+			"description": "An Android tablet front-end for a restaurant management system used by restaurant staff to manage the floor, reservations and table availability.",
+			"responsibilities": [
+				"Android application development",
+				"Continuous integration implementation"
+			],
+			"keywords": ["Android", "Java", "JUnit", "RoboGuice", "Maven", "TeamCity", "REST", "JSON", "Git", "Guava", "JIRA"]
+		},
+		{
+			"name": "Microsoft SCCM add-on",
+			"timeframe": { "from": "November 2010", "to": "December 2011" },
+			"description": "A hardware-independent imaging solution designed as Microsoft Systems Center Configuration Manager (SCCM) add-on. The application is aimed to analyze computers on the network, collect their configuration details and device drivers, categorize those computers into compatibility groups and then provide ready-to-use \"configuration scripts\" which install all the device drivers required.",
+			"responsibilities": [
+				"Requirements management",
+				"Research and development"
+			],
+			"keywords": ["Microsoft SCCM", ".NET", "C#", "Microsoft SQL Server", "T-SQL", "JIRA", "TeamCity", "Subversion"]
+		},
+		{
+			"name": "Online survey service support",
+			"timeframe": { "from": "October 2010", "to": "November 2010" },
+			"description": "A survey solution with powerful questionnaires constructor and variety of reports. Designed as an ASP.NET web application with Microsoft SQL Server backend.",
+			"responsibilities": [
+				"Team leadership, development activities coordination",
+				"Iteration planning",
+				"Continuous integration implementation"
+			],
+			"keywords": [".NET", "C#", "ASP.NET", "Microsoft SQL Server", "T-SQL", "Stored Procedures", "ADO.NET", "Subversion", "IIS", "Mantis"]
+		},
+		{
+			"name": "Single Sign-On solution support",
+			"timeframe": { "from": "June 2009", "to": "October 2010" },
+			"description": "An enterprise-scale Single Sign-On solution that consists of a desktop part and a number of network services. Desktop part is responsible for monitoring the desktop (native, .NET and Java applications) and web-browser pages. Whenever authentication is required, credentials are automatically injected so that users don't have to remember all the passwords they use. This desktop application is backed by a number of network services responsible for storing/providing all the credentials.",
+			"responsibilities": [
+				"Issues investigation",
+				"Hot-fixes implementation"
+			],
+			"keywords": [".NET", "C#", "C++", "ADO.NET", "WinAPI", "Microsoft SQL Server", "JIRA", "Subversion", "LDAP", "Active Directory"]
+		},
+		{
+			"name": "Cable tester firmware extension",
+			"timeframe": { "from": "May 2009", "to": "June 2009" },
+			"description": "An extension to cable tester solution.",
+			"responsibilities": [
+				"Implementation of front-end for new cable test module"
+			],
+			"keywords": ["Linux", "Debian", "Qt", "Qtopia", "C++"]
+		},
+		{
+			"name": "Travel company intranet application",
+			"timeframe": { "from": "January 2009", "to": "May 2009" },
+			"description": "An internal trip reservation solution for US-based travel company.",
+			"responsibilities": [
+				"Implementation of mailing module",
+				"Implementation of Microsoft Outlook integration"
+			],
+			"keywords": ["Windows", ".NET", "C#", "Microsoft SQL Server", "T-SQL", "Stored Procedures", "Windows Forms", "Subversion", "ADO.NET"]
+		},
+		{
+			"name": "Securities market analysis system extension",
+			"timeframe": { "from": "January 2008", "to": "December 2008" },
+			"description": "A securities market analysis system extension aimed to provide support for external data sources. An application itself consists of C++ back-end, CORBA middleware and .NET Windows Forms front-end.",
+			"responsibilities": [
+				"Windows Forms front-end implementation"
+			],
+			"keywords": ["Windows", "Linux", ".NET", "C#", "C++", "Oracle", "XML", "CORBA", "Windows Forms", "AccuRev"]
 		}
 	]
 }
