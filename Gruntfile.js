@@ -36,7 +36,11 @@ module.exports = function(grunt) {
     'gh-pages': {
       options: {
         base: 'dist',
-        repo: 'https://' + process.env.GH_TOKEN + '@github.com/loki2302/cv-generator.git'
+        repo: 'https://' + process.env.GH_TOKEN + '@github.com/loki2302/cv-generator.git',
+        user: {
+          name: 'loki2302',
+          email: 'loki2302@loki2302.me'
+        }
       },
       src: '**/*'
     }
