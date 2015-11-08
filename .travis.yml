@@ -1,28 +1,9 @@
 language: node_js
 node_js:
-  - '0.10'
-after_script:
-  - node app.js
-  - mv cv.html _cv.html
-  - mv cv.css _cv.css
-  - mv cv.pdf _cv.pdf
-  - git config credential.helper "store --file=.git/credentials"
-  - git config --global user.email "loki2302@loki2302.me"
-  - git config --global user.name "loki2302"
-  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-  - git remote set-url origin https://github.com/loki2302/cv-generator.git
-  - git remote set-branches --add origin gh-pages  
-  - git fetch
-  - git checkout gh-pages
-  - git rm -rf .
-  - mv _cv.html cv.html
-  - mv _cv.css cv.css
-  - mv _cv.pdf cv.pdf
-  - git add cv.html
-  - git add cv.css
-  - git add cv.pdf
-  - git commit -m "Travis build"
-  - git push origin gh-pages
+  - '5.0'
+script:
+  - npm install -g grunt-cli
+  - grunt deploy
 env:
   global:
     secure: GECSj+I7n35AEh2B+YvTVx+76ugHoOvO1mVnE2RvJBxCDwwjgyY5DmIzyvO4dpqHZTVxThk9G5g+xvzK70+g0ymGydNJIvj/8YKCJukYzmFHvWhMwkLRKtn/b1ye1M5re6Oz2n4jE7WRmUim0lC/gKP2NK5VC3MuliFTYXEowdY=
