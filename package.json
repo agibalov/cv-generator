@@ -12,7 +12,7 @@
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-gh-pages": "^1.0.0",
-    "grunt-html-pdf": "0.0.3",
+    "grunt-html-pdf": "github:max-barry/grunt-html-pdf#e8e3e88e91833ce02e79178b1b749b9eccb46a35",
     "grunt-swig-it": "0.0.5"
   }
 }
