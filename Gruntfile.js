@@ -38,7 +38,7 @@ module.exports = function(grunt) {
         base: 'dist',
         repo: 'https://' + process.env.GH_TOKEN + '@github.com/loki2302/cv-generator.git'
       },
-      src: ['**']
+      src: '**/*'
     }
   });
 
