@@ -1,10 +1,10 @@
 sudo: false
 language: node_js
 node_js:
-  - '5.0'
+- '5.0'
 script:
-  - npm install -g grunt-cli
-  - grunt deploy
+- npm install -g grunt-cli
+- grunt deploy
 env:
   global:
-    secure: GECSj+I7n35AEh2B+YvTVx+76ugHoOvO1mVnE2RvJBxCDwwjgyY5DmIzyvO4dpqHZTVxThk9G5g+xvzK70+g0ymGydNJIvj/8YKCJukYzmFHvWhMwkLRKtn/b1ye1M5re6Oz2n4jE7WRmUim0lC/gKP2NK5VC3MuliFTYXEowdY=
+    secure: MQTns825giLGla6CjKoWFLm2E54eI9iH5Q1mCTEpJpiwG+EATrLonf8gFl+/slBiI+WMnuXgK34LxAj0h6pg2gz+zTJMqfbgIpJA4Ro95+yMP+WvVm7ZEWhysJYglj+sXgc8ETzfZlAgntbyqZsn4kXTJ6mRBh/2lwkWtrfmqng=
