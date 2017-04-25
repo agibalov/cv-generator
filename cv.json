@@ -16,6 +16,17 @@
   ],
   "projects": [
     {
+      "name": "Data Acquisition Application",
+      "timeframe": { "from": "November 2015", "to": "Present" },
+      "description": "An integrated environment for data acquisition - a part of the credit ratings production pipeline allowing to extract raw data from PDF documents and transform it into meaningful data points; organize data points into a predefined data structure with on-the-fly validation; enhance and pre-process data points for further analysis.",
+      "responsibilities": [
+        "Application architecture",
+        "Team leadership, development activities coordination",
+        "Release and sprint planning"
+      ],
+      "keywords": ["Java", "Spring Boot", "Spring MVC", "Spring Security", "Spring Data JPA", "JUnit", "Oracle", "PDFBox", "Tabula", "Maven", "JIRA", "REST"]
+    },
+    {
       "name": "Engineer's Assistance Tool",
       "timeframe": { "from": "January 2014", "to": "October 2015" },
       "description": "A software aimed at guiding an engineer through the part production process by describing every major step, its success criteria, and suggesting the exact actions to get closer to the expected result.",

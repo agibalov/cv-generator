@@ -240,19 +240,21 @@
             </ul>
           </div>
           {% if project.subprojects %}
-            <h4>Contributions</h4>
-            <div class="subprojects">
-            {% for subproject in project.subprojects %}
-              <div class="subproject no-break">
-                <h5>{{subproject.name}}</h5>
-                <ul>
-                {% for contribution in subproject.contributions %}
-                  <li>{{contribution}}</li>
-                {% endfor %}
-                </ul>
-                {{ render_tags(subproject.keywords) }}
+            <div class="no-break">
+              <h4>Contributions</h4>
+              <div class="subprojects">
+              {% for subproject in project.subprojects %}
+                <div class="subproject no-break">
+                  <h5>{{subproject.name}}</h5>
+                  <ul>
+                  {% for contribution in subproject.contributions %}
+                    <li>{{contribution}}</li>
+                  {% endfor %}
+                  </ul>
+                  {{ render_tags(subproject.keywords) }}
+                </div>
+              {% endfor %}
               </div>
-            {% endfor %}
             </div>
           {% endif %}
           {{ render_tags(project.keywords) }}
