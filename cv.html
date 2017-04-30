@@ -153,6 +153,10 @@
         margin-bottom: 10pt;
       }
 
+      .project .subprojects .subproject ul {
+        margin-left: 20pt;
+      }
+
       .project .subprojects .tag {
         border-radius: 3pt;
         padding: 0.3pt 3pt;
@@ -161,7 +165,7 @@
 
       ul {
         list-style-type: square;
-        list-style-position: inside;
+        list-style-position: outside;
         margin: 0;
         padding: 0;
         margin-left: 20pt;
@@ -187,10 +191,17 @@
       <h1 class="name">{{ person.name }}</h1>
       <p class="position">{{ person.position }}</p>
       <p class="statement">{{ person.statement }}</p>
+      {% if person.location %}
+      <i class="fa fa-globe icon"></i> {{ person.location }}<br>
+      {% endif %}
     </div>
     <div class="contacts">
       {% if contacts.email %}
       <i class="fa fa-envelope icon"></i> <a href="mailto:{{ contacts.email }}">{{ contacts.email }}</a><br>
+      {% endif %}
+
+      {% if contacts.skype %}
+      <i class="fa fa-skype icon"></i> {{ contacts.skype }}<br>
       {% endif %}
 
       {% if contacts.phone %}

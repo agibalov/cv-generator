@@ -2,17 +2,23 @@
   "person": {
     "name": "Andrey Agibalov",
     "position": "Senior Software Engineer",
+    "location": "Greater New York City Area",
     "statement": "Software engineer/Team leader in a number of software projects from desktop C++ to single-page web applications. I know the difference between writing a good code and building a good product. I'm particularly interested in building complete solutions that work, amaze and are capable of being evolved at the same time."
   },
   "contacts": {
     "email": "andrey.agibalov@gmail.com",
+    "skype": "andrey.agibalov",
     "phone": "+1 (516) 643-5175",
     "github": "https://github.com/loki2302"
   },
-  "keywords": [".NET", "C#", "ASP.NET MVC", "TeamCity", "SQL", "Git", "AngularJS", "Bootstrap", "Java", "Spring", "Android", "Python", "Django", "C++"],
+  "keywords": ["Java", "Spring", "AngularJS", "REST", "NodeJS", "Docker", "JavaScript", "TypeScript", ".NET", "C#", "ASP.NET MVC", "CI", "DDD", "TDD", "Agile", "TeamCity", "SQL", "Git"],
   "highlights": [
-    "Strong software architecting and design skills",
-    "Experience in team leadership and process management"
+    "Software development best practices adopter: continuous integration, domain-driven design, refactoring, test-driven development.", 
+    "Full software development lifecycle experience: from discovery and design to release and support.", 
+    "Experience with a wide range of technologies, ability to analyze technology applicability.", 
+    "Ability to talk to both business and technical teams and translate one to another.", 
+    "Experience in project management and team leadership, including development process planning, progress tracking and reporting, and team activities coordination.", 
+    "The Pragmatic Programmer ideology adherent."
   ],
   "projects": [
     {
