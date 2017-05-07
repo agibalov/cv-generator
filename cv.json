@@ -1,9 +1,13 @@
 {
   "person": {
     "name": "Andrey Agibalov",
-    "position": "Senior Software Engineer",
+    "position": "Team Leader / Software Architect",
     "location": "Greater New York City Area",
-    "statement": "Software engineer/Team leader in a number of software projects from desktop C++ to single-page web applications. I know the difference between writing a good code and building a good product. I'm particularly interested in building complete solutions that work, amaze and are capable of being evolved at the same time."
+    "statements": [
+      "I am a team leader and an architect with 10+ years of experience in software development.",
+      "I help business to build balanced solutions by understanding the needs, providing technical vision and implementation options, and then leading the development process.",
+      "I help team members to achieve their best by establishing appropriate processes within the team, by encouraging them to follow software development best practices and providing technical guidance."
+    ]
   },
   "contacts": {
     "email": "andrey.agibalov@gmail.com",
@@ -17,8 +21,7 @@
     "Full software development lifecycle experience: from discovery and design to release and support.", 
     "Experience with a wide range of technologies, ability to analyze technology applicability.", 
     "Ability to talk to both business and technical teams and translate one to another.", 
-    "Experience in project management and team leadership, including development process planning, progress tracking and reporting, and team activities coordination.", 
-    "The Pragmatic Programmer ideology adherent."
+    "Experience in project management and team leadership, including development process planning, progress tracking and reporting, and team activities coordination."
   ],
   "projects": [
     {

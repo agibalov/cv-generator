@@ -36,8 +36,15 @@
         color: #555555;
       }
 
-      .statement {
+      .statements {
+        margin: 11.5pt 0;
+      }
+
+      .statements .statement {
         font-size: 11.5pt;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5pt;
       }
 
       .contacts {
@@ -190,7 +197,11 @@
     <div class="personal">
       <h1 class="name">{{ person.name }}</h1>
       <p class="position">{{ person.position }}</p>
-      <p class="statement">{{ person.statement }}</p>
+      <div class="statements">
+        {% for statement in person.statements %}
+        <p class="statement">{{ statement }}</p>
+        {% endfor %}
+      </div>
       {% if person.location %}
       <i class="fa fa-globe icon"></i> {{ person.location }}<br>
       {% endif %}
